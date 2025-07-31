@@ -1,0 +1,42 @@
+## Derleme klasörleri
+bin/
+obj/
+
+## Visual Studio kullanıcı dosyaları
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Geçici dosyalar
+*.log
+*.tmp
+
+## JSON gibi özel bilgileri içeren dosyalar
+servisler.json
+
+## Ayarlar, cache, vs.
+.vs/
+*.db
+*.sqlite
+*.pdb
+
+## Sistem dosyaları
+Thumbs.db
+.DS_Store
+
+## Geri dönüşüm klasörleri
+_ReSharper*/
+*.resharper
+
+## Paketler
+packages/
+*.nupkg
+
+## Yedek dosyalar
+*.bak
+*.old
+*.orig
+
+## Yayınlama çıktıları
+publish/
